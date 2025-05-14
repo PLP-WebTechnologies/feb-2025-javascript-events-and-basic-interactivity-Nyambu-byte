@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript Playground 🎉</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>🎮 JavaScript Playground</h1>
+
+  <section>
+    <h2>1. Event Handling 🎈</h2>
+    <button id="clickBtn">Click Me!</button>
+    <div id="hoverBox">Hover over me!</div>
+    <input type="text" id="keyInput" placeholder="Type something..." />
+    <p id="secretAction">🤫 Try double-clicking me!</p>
+  </section>
+
+  <section>
+    <h2>2. Interactive Elements 🎮</h2>
+    <button id="magicBtn">Transform me!</button>
+
+    <h3>Slideshow</h3>
+    <img id="slideshow" src="https://via.placeholder.com/300x200?text=Image+1" alt="Gallery" />
+
+    <h3>Tabs</h3>
+    <div class="tab">
+      <button onclick="showTab('tab1')">Tab 1</button>
+      <button onclick="showTab('tab2')">Tab 2</button>
+    </div>
+    <div id="tab1" class="content">This is tab 1 content.</div>
+    <div id="tab2" class="content" style="display: none;">This is tab 2 content.</div>
+  </section>
+
+  <section>
+    <h2>3. Form Validation 📋✅</h2>
+    <form id="signupForm">
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="password" placeholder="Password (min 8 chars)" required />
+      <span id="feedback"></span>
+      <br />
+      <button type="submit">Sign Up</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

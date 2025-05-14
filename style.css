@@ -1,0 +1,65 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f9;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #333;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#hoverBox {
+  width: 200px;
+  height: 50px;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 10px;
+}
+
+#slideshow {
+  display: block;
+  margin: 1rem 0;
+  border: 2px solid #333;
+}
+
+.tab button {
+  background-color: #eee;
+  border: none;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.content {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+
+form input {
+  padding: 8px;
+  margin: 5px;
+  width: 250px;
+  display: block;
+}
+
+#feedback {
+  display: block;
+  margin: 5px 0;
+  color: red;
+}
